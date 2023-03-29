@@ -5,6 +5,7 @@
     "start": "concurrently \"npm run start:server\" \"npm run start:client\""
   },
   "devDependencies": {
-    "concurrently": "^7.6.0"
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.22"
   }
 }
