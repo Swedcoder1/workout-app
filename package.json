@@ -2,7 +2,8 @@
   "scripts": {
     "start:server": "node backend/server.js",
     "start:client": "npm start --prefix frontend",
-    "start": "concurrently \"npm run start:server\" \"npm run start:client\""
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "build:all": "cd backend && npm run build && cd ../frontend && npm run build"
   },
   "devDependencies": {
     "concurrently": "^7.6.0",
