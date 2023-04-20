@@ -39,7 +39,7 @@ const SignUp = () => {
             onSubmit={(values) => {
               axios({
                 method: "post",
-                url: "http://localhost:5000/register",
+                url: "https://workout-app-beige.vercel.app/register",
                 headers: {
                   "content-type": "application/json",
                 },
