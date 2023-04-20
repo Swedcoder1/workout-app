@@ -13,6 +13,9 @@ app.use(bodyParser.json(), urlencodedParser);
 
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send("Express on Vercel");
+});
 app.use("/", login);
 app.use("/", register);
 app.use("/", dashboardRouter);
