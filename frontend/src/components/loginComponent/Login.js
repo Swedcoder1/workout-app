@@ -37,7 +37,7 @@ const Login = ({ setUser }) => {
           onSubmit={(values) => {
             axios({
               method: "post",
-              url: "http://localhost:5000/login",
+              url: "https://workout-app-frontend.vercel.app/login",
               headers: {
                 "content-type": "application/json",
               },
