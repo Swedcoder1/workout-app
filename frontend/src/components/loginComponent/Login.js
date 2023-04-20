@@ -37,7 +37,7 @@ const Login = ({ setUser }) => {
           onSubmit={(values) => {
             axios({
               method: "post",
-              url: "https://workout-app-beige.vercel.app//login",
+              url: "https://workout-app-beige.vercel.app/login",
               headers: {
                 "content-type": "application/json",
               },
