@@ -156,6 +156,7 @@ const CreateWorkout = ({ setOpenModal }) => {
                     <Field
                       name="workoutTitle"
                       type="text"
+                      placeholder="Workout title.."
                       className="rounded-md border-blue-500 py-2 pl-2 placeholder-gray-500 outline outline-1 outline-blue-600 focus:outline-2 sm:py-3 "
                     />
                     {errors.workoutTitle && touched.workoutTitle ? (
