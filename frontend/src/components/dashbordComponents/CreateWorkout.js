@@ -34,7 +34,7 @@ const CreateWorkout = ({ setOpenModal }) => {
 
     axios({
       method: "post",
-      url: "http://localhost:5000/createprogram",
+      url: "https://workout-app-beige.vercel.app/createprogram",
       headers: {
         "content-type": "application/json",
       },

@@ -39,7 +39,7 @@ const DeleteExercise = ({
     //Send data to backend and to database
     axios({
       method: "delete",
-      url: "http://localhost:5000/delete-exercise",
+      url: "https://workout-app-beige.vercel.app/delete-exercise",
       headers: {
         "content-type": "application/json",
       },

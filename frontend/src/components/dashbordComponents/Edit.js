@@ -25,7 +25,7 @@ const Edit = ({
 
     axios({
       method: "get",
-      url: "http://localhost:5000/updateExercise",
+      url: "https://workout-app-beige.vercel.app/updateExercise",
       headers: {
         "content-type": "application/json",
       },

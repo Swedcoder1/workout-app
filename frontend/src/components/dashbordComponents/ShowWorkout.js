@@ -31,7 +31,7 @@ const ShowWorkout = ({
     setWorkoutProgram(updateData);
     axios({
       method: "delete",
-      url: "http://localhost:5000/delete-workout",
+      url: "https://workout-app-beige.vercel.app/delete-workout",
       headers: {
         "content-type": "application/json",
       },

@@ -20,7 +20,7 @@ const Workouts = () => {
 
     axios({
       method: "get",
-      url: "http://localhost:5000/get-workouts",
+      url: "https://workout-app-beige.vercel.app/get-workouts",
       headers: {
         "content-type": "application/json",
       },
